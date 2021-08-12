@@ -65,11 +65,6 @@ app.get('/weather', (req, resp) => {
         })
     })
 
-    // resp.send({
-    //     forecast: 'It is snowing!',
-    //     location: 'New York',
-    //     address: req.query.address
-    // });
 })
 
 app.get('/products', (req, resp) => {

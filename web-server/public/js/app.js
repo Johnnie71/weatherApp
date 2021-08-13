@@ -14,5 +14,6 @@ fetch("http://localhost:3000/weather?address=!@")
 const weatherForm = document.querySelector('form');
 
 weatherForm.addEventListener('submit', (e) => {
+    e.preventDefault();
     console.log(e)
 } )

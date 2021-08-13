@@ -11,4 +11,4 @@ fetch("http://localhost:3000/weather?address=!@")
     }
 })
 
-document.querySelector('form');
+const weatherForm = document.querySelector('form');

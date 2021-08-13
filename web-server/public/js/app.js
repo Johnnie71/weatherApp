@@ -11,9 +11,11 @@ fetch("http://localhost:3000/weather?address=!@")
     }
 })
 
+//Getting the form and its input
 const weatherForm = document.querySelector('form');
 const searchElement = document.querySelector('input');
 
+//Listening for a submit on the form and getting the value
 weatherForm.addEventListener('submit', (e) => {
     e.preventDefault();
 

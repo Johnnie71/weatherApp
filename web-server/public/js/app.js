@@ -10,3 +10,5 @@ fetch("http://localhost:3000/weather?address=!@")
         console.group(data.forecast)
     }
 })
+
+document.querySelector('form');

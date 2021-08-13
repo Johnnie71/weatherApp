@@ -16,8 +16,8 @@ const weatherForm = document.querySelector('form');
 const searchElement = document.querySelector('input');
 
 //getting the p tags to hold the information after fetch
-const locationDetails = document.getElementsByClassName('locationDetails');
-const weatherDetails = document.getElementsByClassName('weatherDetails');
+const locationDetails = document.querySelector('.locationDetails');
+const weatherDetails = document.querySelector('.weatherDetails');
 
 //Listening for a submit on the form and getting the value to fetch
 weatherForm.addEventListener('submit', (e) => {

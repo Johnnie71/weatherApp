@@ -18,5 +18,5 @@ weatherForm.addEventListener('submit', (e) => {
     e.preventDefault();
 
     const location = searchElement.value;
-    console.log('Testing')
+    console.log(location)
 } )
